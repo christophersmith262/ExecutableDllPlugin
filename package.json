@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "pretty": "prettier ./lib/**/*.js --list-different",
-    "lint": "eslint ./"
+    "lint": "eslint ./",
+    "test": "jest test"
   },
   "repository": "https://github.com/sergei-startsev/ExecutableDllPlugin",
   "files": [
@@ -28,6 +29,7 @@
   },
   "devDependencies": {
     "eslint": "^5.9.0",
+    "jest": "^24.7.1",
     "prettier": "^1.15.3",
     "webpack": "^4.26.1",
     "webpack-cli": "^3.1.2"
